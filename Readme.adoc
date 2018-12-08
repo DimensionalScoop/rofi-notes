@@ -1,6 +1,6 @@
 = Readme
 
-A very simple note taking app.
+A very simple note taking 'app'.
 All paths are hard-coded and I call some very ugly shell commands via python.
 Sue me.
 
