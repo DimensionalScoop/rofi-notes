@@ -12,4 +12,8 @@ Sue me.
  `rofi-notes.py pdf`:: Converts selected note to a pdf via ascidoc and opens it in mupdf.
 
 == Demonstration
-video::example.mp4[options=autoplay]
+See `example.mp4`.
+
+== Dependecies
+rofi, grep, mupdf +
+python3, dynmen
