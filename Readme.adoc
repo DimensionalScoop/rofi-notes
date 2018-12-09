@@ -5,7 +5,7 @@ All paths are hard-coded and I call some very ugly shell commands via python.
 Sue me.
 
 == Usage
-`rofi-notes.py`:: Opens a dmenu (rofi in this case) that lists the names of all notes. When you select a note it is opened in vim. When you type in a note that doesn't exist, it creates a new one.
+`rofi-notes.py notes`:: Opens a dmenu (rofi in this case) that lists the names of all notes. When you select a note it is opened in vim. When you type in a note that doesn't exist, it creates a new one.
 
 `rofi-notes.py grep`:: Searches the contents of all notes for your input and then presents a list of results in a dmenu. When you chose one, vim is opened at the specific line.
 
@@ -15,5 +15,5 @@ Sue me.
 See `example.mp4`.
 
 == Dependecies
-rofi, grep, mupdf +
+rofi, grep, mupdf, vim or nano +
 python3, dynmen
